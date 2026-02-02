@@ -1,6 +1,6 @@
 # Context-Aware Smart Discounting 📈
 
-> **⚠️ Portfolio Disclaimer:** This repository contains a **sanitized and anonymized version** of a real-world project developed for the **largest B2B Pharmaceutical Distributor in Brazil**.
+> **⚠️ Portfolio Disclaimer:** This repository contains a **sanitized and anonymized version** of a real-world project developed for the **large B2B Pharmaceutical Distributor in Brazil**.
 >
 > **Business Context & Results:** This project delivered a **Strategic Pricing Engine** that empowers commercial teams to define optimal discount ranges adapted to specific business contexts.
 >
@@ -251,5 +251,6 @@ This repository contains **8 sequential notebooks** representing the end-to-end 
 4. **Elasticity Interpretation:**
 
    * **Notebook:** `7_elasticity_analysis.ipynb`
+
 
    * The final column `final_elasticity` undergoes *capping* (limiting extreme values) and positive value treatment (inverting illogical positive demand curves) before serving.
