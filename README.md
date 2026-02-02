@@ -139,7 +139,7 @@ This repository contains **8 sequential notebooks** representing the end-to-end 
 | `5_model_optimization.ipynb` | **Tuning** | Hyperparameter tuning loop for the GLM regularization (`alpha` and `L1_wt`) using **Optuna** to minimize AIC. | 
 | `6_elasticity_model.ipynb` | **Modeling** | **Core Engine.** Trains the **Negative Binomial Regression (GLM)** to estimate the price elasticity coefficients for each context. | 
 | `7_elasticity_analysis.ipynb` | **Evaluation** | Post-processing. Applies **Bühlmann-Straub Shrinkage** to adjust local elasticities towards the global mean (`final_elasticity`), ensuring statistical robustness. | 
-| `8_discount_estimation.ipynb` | **Serving** | Calculates the final discount scenarios (Optimal, Min, Max) based on `final_elasticity` and exports to Power BI. | 
+| `8_discount_estimation.ipynb` | **Serving** | Calculates the final discount scenarios (Optimal, Min, Max) based on `final_elasticity` simulating the real Power BI operation. | 
 
 ## ⚙️ Orchestration
 
@@ -254,4 +254,5 @@ This repository contains **8 sequential notebooks** representing the end-to-end 
 
 
    * The final column `final_elasticity` undergoes *capping* (limiting extreme values) and positive value treatment (inverting illogical positive demand curves) before serving.
+
 
