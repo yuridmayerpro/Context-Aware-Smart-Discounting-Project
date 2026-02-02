@@ -255,4 +255,9 @@ This repository contains **8 sequential notebooks** representing the end-to-end 
 
    * The final column `final_elasticity` undergoes *capping* (limiting extreme values) and positive value treatment (inverting illogical positive demand curves) before serving.
 
+## 👤 Author
+
+**Erik Yuri Dutzig**
+*Data Scientist*
+[LinkedIn](https://linkedin.com/in/yuridmayer) | [GitHub](https://github.com/yuridmayerpro)
 
