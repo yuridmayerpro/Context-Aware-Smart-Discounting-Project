@@ -12,6 +12,22 @@ The **Smart Discount** project aims to develop a data science solution to find t
 
 The final deliverable is a data model that feeds an **Interactive Power BI Dashboard**. This tool allows business areas to receive recommendations for three discount ranges (minimum, ideal, and maximum) for an SKU or group of products, based on dynamic filters such as State (UF), Region, Channel, Brand, among others.
 
+<br>
+
+<img width="1180" height="684" alt="Discount ranges" src="https://github.com/user-attachments/assets/d6ac7e9c-3778-463f-bf4c-7d7f90539e4e" />
+<p align="center"><em>Real-world examples of calculated discount ranges</em></p>
+
+> Visual representation of the Strategic Pricing Engine output for a B2B pharmaceutical distributor. This chart displays anonymized discount ranges calculated via GLM elasticity modeling, highlighting the strategic balance between Gross Profit (GP) Maximization, volume Uplift targets, and Minimum Margin safety limits.
+
+<br>
+
+<img width="1398" height="630" alt="Simulation" src="https://github.com/user-attachments/assets/19305c79-b5b3-433b-a05c-144439f14981" />
+<p align="center"><em>Strategic Price Simulation.</em></p>
+
+> This simulation visualizes the impact of discounts on demand (Uplift), Gross Margin, and Total Profit using a Negative Binomial GLM engine. It identifies the Ideal Discount for maximizing profit (GP) by balancing volume growth against margin erosion. The model also maps Target Uplift and Minimum Margin safety limits to define a data-driven range for optimized promotional strategies.
+
+<br>
+
 ## 🧠 Theoretical Foundation & Methodology
 
 The project's methodology is built upon microeconomics and econometrics foundations, ensuring that discount recommendations are accurate and aligned with business objectives.
@@ -254,10 +270,11 @@ This repository contains **8 sequential notebooks** representing the end-to-end 
 
 
    * The final column `final_elasticity` undergoes *capping* (limiting extreme values) and positive value treatment (inverting illogical positive demand curves) before serving.
-
+   
 ## 👤 Author
 
 **Erik Yuri Dutzig**
 *Data Scientist*
 [LinkedIn](https://linkedin.com/in/yuridmayer) | [GitHub](https://github.com/yuridmayerpro)
+
 
